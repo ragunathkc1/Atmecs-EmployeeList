@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import {useState} from 'react';
-import Dropdown from './Dropdown';
+import Dropdown from './Dropdown.js';
 
 function App() {
   const [empData,setEmpData]=useState(
